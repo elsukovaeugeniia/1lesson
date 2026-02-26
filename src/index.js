@@ -1,5 +1,5 @@
 import "./css/style.css";
-import goblinImg from '../img/goblin.png';
+import goblinImg from './img/goblin.png';
 
 const FIELD_SIZE = 4;
 const TOTAL_CELLS = FIELD_SIZE * FIELD_SIZE;
