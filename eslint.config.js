@@ -1,3 +1,4 @@
+//проверка
 // eslint.config.js
 export default [
   {
