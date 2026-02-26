@@ -1,3 +1,25 @@
 body {
-    color: #999;
+  text-align: center;
+  background: #4a90e2;
+  font-family: Arial, sans-serif;
+}
+
+#game-field {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  grid-template-rows: repeat(4, 80px);
+  gap: 8px;
+  margin: 20px auto;
+  width: fit-content;
+}
+
+.cell {
+  background: #2c3e50;
+  border-radius: 8px;
+}
+
+.character {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
 }
